@@ -122,7 +122,7 @@ function adoptionLoopTick() {
       // if person runs out of time
       // force person to end of the queue
       replyToClients(null);
-    }, 5000);
+    }, 8000);
 
     let adoptedPet = (adoptedPet) => {
       clearTimeout(adoptionTimeout);
